@@ -1,0 +1,49 @@
+.paddingAll {
+    padding: 10px 10px 10px 10px;
+}
+
+.priceTitle {
+    font-weight: 600;
+}
+
+.priceSubtitle {
+    font-size: 14px;
+}
+
+.iconStyle {
+    margin-top: 20px !important;
+    margin-left: 20px !important;
+    color: aliceblue;
+}
+
+.iconStyleBlack {
+    margin-top: 20px !important;
+    margin-left: 20px !important;
+}
+
+.gradient {
+    background: linear-gradient(158deg, rgba(40, 34, 70, 1)0%, rgba(30, 47, 141, 1)100%);
+}
+
+.gradientLight {
+    background: linear-gradient(158deg, rgba(53, 138, 148, 1)0%, rgba(91, 180, 96, 1)100%);
+}
+
+.totalTasks {
+    background: linear-gradient(158deg, rgba(106, 79, 148, 1)0%, rgba(180, 90, 96, 1)100%);
+}
+
+.completedTasks {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.pendingTasks {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(252, 176, 69, 1) 100%, rgba(253, 29, 29, 1) 100%);
+}
+
+.bgColor {
+    min-height: 100vh;
+    background: linear-gradient(158deg, rgba(224, 224, 224)0%, rgba(233, 237, 254)100%);
+}

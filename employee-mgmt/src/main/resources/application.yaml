@@ -1,0 +1,49 @@
+spring:
+  main:
+    banner-mode: off
+  application:
+    name: Employee Management
+  security:
+    user:
+      password: hello
+#  h2:
+#    console:
+#      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydb
+    username: John
+    password: Jeetu@786
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    driver-class-name: org.h2.Driver
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: jitendra.nayak897 
+    password: lqdswyqrrcsgnzfw
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          ssl:
+#            protocols: "TLSV1.2"
+            trust: "smtp.gmail.com"
+        transport:
+          protocol: "smtp"
+server:
+  port: 8181
+scheduler:
+  cron-times:
+    each-five-minute: 0 */10 * ? * *
+    everyday-three-am: 0 0 3 * * *
+test:
+  mail:
+    to: jitendra.kumar.naik@accenture.com
+  image:
+    path: C:/Users/jitendra.kumar.naik.DIR/WS/STS/employee-mgmt/src/main/resources/static/images/
